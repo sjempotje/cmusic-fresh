@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  web:
+    build: .
+    ports:
+      - 80:80
+    environment:
+      - HOSTNAME=example.com
+      - NODE_ENV=production
+      - PORT=80
