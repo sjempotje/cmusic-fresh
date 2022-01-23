@@ -1,1 +1,1 @@
-worker=npm start web
+worker:npm start web
