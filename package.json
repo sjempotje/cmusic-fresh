@@ -21,7 +21,7 @@
         "web": "webpack serve",
         "test": "jest",
         "lint": "eslint .",
-        "postinstall": "cd ./node_modules/react-native-track-player/ && npm install && rm -rf ./node_modules && rm -rf ./src"
+        "postinstall": "npm install"
     },
     "dependencies": {
         "@react-native-async-storage/async-storage": "^1.15.14",
