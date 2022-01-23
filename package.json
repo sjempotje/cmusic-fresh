@@ -21,7 +21,7 @@
         "web": "webpack serve",
         "test": "jest",
         "lint": "eslint .",
-        "postinstall": ""
+        "postinstall": "webpack serve"
     },
     "dependencies": {
         "@react-native-async-storage/async-storage": "^1.15.14",
