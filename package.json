@@ -5,7 +5,7 @@
     "repository": "github:kvnp/youtune-reactnative",
     "license": "GPL-3.0",
     "engines": {
-        "node": "17.x",
+        "node": "14.x",
         "npm": "8.x"
     },
     "funding": {
