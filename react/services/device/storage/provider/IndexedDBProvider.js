@@ -66,7 +66,7 @@ export default class IndexedDBProvider {
         return this.#db !== undefined
     }
 
-    static #DB_NAME = "youtune-storage";
+    static #DB_NAME = "cmusic-storage";
     static #read_write = "readwrite";
     static #read_only = "readonly";
     static #db;

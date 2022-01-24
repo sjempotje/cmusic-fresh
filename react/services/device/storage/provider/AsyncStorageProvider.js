@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default class AsyncStorageProvider {
-    static #DB_NAME = "youtune-storage";
+    static #DB_NAME = "cmusic-storage";
 
     static getItem(storeName, key) {
         return new Promise(async(resolve, reject) => {
